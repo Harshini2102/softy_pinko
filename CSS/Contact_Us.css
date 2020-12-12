@@ -1,0 +1,67 @@
+.contact-us{
+    background-size: cover;
+    height:120vh;
+    background-color: #f2f2fe;
+}
+
+.Contact_Us_Add{
+    text-align: left;
+    margin:60px 0px 0px 100px;
+}
+
+h2{
+    margin-top: 60px;
+}
+
+h3{
+    color:#1e1e1e;
+}
+
+.content{
+    font-weight: 400;
+    font-size: 14px;
+    color: #6F8BA4;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+}
+
+input{
+    width:40%;
+    height:8vh;
+    border-radius:25px;
+    color: #777;
+    font-size: 14px;
+    border: 1px solid #eee;
+    padding-left: 15px;
+}
+
+form{
+    margin:-230px 0px 0px 450px;
+}
+
+input:focus , textarea:focus{
+    border: 1px solid #eee;
+    border-radius:25px; 
+    outline:none;
+    box-shadow: 0 0 0 3pt lightblue;
+}
+
+input[type=email]{
+    margin-left:30px;
+}
+
+textarea{
+    margin:30px 0px 6px 0px;
+    height:25vh;
+    width:83%;
+    border-radius:25px;
+    color: #777;
+    border: 1px solid #eee;
+    padding:10px 20px;
+    font-size: 17px;
+}
+
+.send-msg{
+    margin-left: 10px;
+}
+

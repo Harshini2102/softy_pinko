@@ -1,0 +1,145 @@
+body,html{
+    max-width: 100%;
+    overflow-x: hidden;
+    margin:0;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+    line-height: 1.15;
+}
+
+.background{
+   background-image: url(../images/banner-bg.png);
+   background-size: cover;
+   position: relative;
+   height: 100vh;
+   background-position: center;
+   z-index: 0;
+}
+
+.background .main-nav{
+    border:1px solid white;
+    width:80%;
+    height:12vh;
+    border-radius: 40px;
+    background-color: white;
+    display:block;
+    position: absolute;
+    margin:40px 150px;
+    box-shadow: 0 2px 48px 0 rgba(0,0,0,0.10);
+}
+
+.logo{
+    margin:20px 30px;
+}
+
+
+.main-nav .nav .menulist a {
+    
+    font-weight: 500;
+    font-size: 13px;
+    color: #fff;
+    height: 40px;
+    border: transparent;
+    color:black;
+    display: block;
+    margin-top:-80px;
+    margin-left: 240px;
+    color:black;
+    text-decoration: none;
+    position: relative;
+    /*margin-left: 20px;*/
+    margin-right: -250px;
+}
+
+.menulist a{
+    margin-top:-70px;
+    margin-left: 25px;
+    color:black;
+    text-decoration: none;
+    position: relative;
+}
+
+.menulist{
+    float: left;
+}
+
+
+.main-nav .nav .menulist a:hover{
+    color:#ff589e;
+}
+
+
+.menutitle{
+    justify-content: center;
+   align-content: center;
+   text-align: center; 
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+.menucontent{
+    color:#fff;
+   justify-content: center;
+   align-content: center;
+   text-align: center; 
+    line-height: 30px;
+}
+
+.menubox1{
+    border:1px solid white;
+    width:26%;
+    height:45vh;
+    background-color: #fff;
+    border-radius: 20px;
+    margin:500px 130px;
+    position: absolute;
+    box-shadow: 0 2px 48px 0 rgba(0,0,0,0.10);
+    margin-top: 400px;
+    justify-content: center;
+    align-content: center;
+    text-align: center; 
+    font-size: 18px;
+}
+
+/*.featureimage{
+    background-color: #8261ee;
+    position: relative;
+    border-radius: 50%;
+}*/
+
+.imgborder{
+    background-color: #8261ee;
+    border-radius: 50%;
+    border: 1px solid  #8261ee;
+    width: 90px;
+    height: 90px;
+    margin-left: 130px;
+    margin-top: 25px;
+}
+
+.featureimage{
+    margin-top: 15px;
+}
+
+.featuretitle{
+    color:#1e1e1e;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.featurecontent{
+    color:#777;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.menubox2{
+    margin:0px 0px 0px 380px;
+}
+
+.menubox3{
+    margin:0px 0px 0px 760px;
+}
+
